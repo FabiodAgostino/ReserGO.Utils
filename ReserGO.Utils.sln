@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserGO.Utils.MVM", "ReserG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserGO.Utils.Service", "ReserGO.Utils.Service\ReserGO.Utils.Service.csproj", "{9F030E06-E53C-4217-A1CD-11FE791A40DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserGO.Utils.UI", "ReserGO.Utils.UI\ReserGO.Utils.UI.csproj", "{6D4501A1-F125-473E-BD00-85845EA77DD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserGO.Utils.UI", "ReserGO.Utils.UI\ReserGO.Utils.UI.csproj", "{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{9F030E06-E53C-4217-A1CD-11FE791A40DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F030E06-E53C-4217-A1CD-11FE791A40DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F030E06-E53C-4217-A1CD-11FE791A40DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D4501A1-F125-473E-BD00-85845EA77DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D4501A1-F125-473E-BD00-85845EA77DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D4501A1-F125-473E-BD00-85845EA77DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D4501A1-F125-473E-BD00-85845EA77DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
