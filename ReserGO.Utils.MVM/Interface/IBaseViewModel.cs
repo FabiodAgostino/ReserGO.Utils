@@ -7,7 +7,6 @@ namespace ReserGO.Utils.MVM.Interface
 {
     public interface IBaseViewModel<TModel>
     {
-        string UserName { get; }
         bool IsFirstLoad { get; set; }
         bool IsLoading { get; set; }
         TModel SelectedItem { get; set; }

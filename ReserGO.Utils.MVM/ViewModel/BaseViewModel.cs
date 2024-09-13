@@ -26,12 +26,6 @@ namespace ReserGO.Utils.MVM.ViewModel
         public readonly IEvent Aggregator;
         public ILogger Logger { get; }
 
-        public string UserName
-        {
-            get => "Va ancora implementato";
-        }
-
-
         #region Public Events
 
         public EventCallback NeedDataReloading { get; set; }
