@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserGO.Utils.Events", "Res
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserGO.Utils.MVM", "ReserGO.Utils.MVM\ReserGO.Utils.MVM.csproj", "{5D8F5D81-F27C-471C-A2CC-4BB377E6082F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserGO.Utils.Service", "ReserGO.Utils.Service\ReserGO.Utils.Service.csproj", "{9F030E06-E53C-4217-A1CD-11FE791A40DE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserGO.Utils.UI", "ReserGO.Utils.UI\ReserGO.Utils.UI.csproj", "{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}"
 EndProject
 Global
@@ -31,10 +29,6 @@ Global
 		{5D8F5D81-F27C-471C-A2CC-4BB377E6082F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D8F5D81-F27C-471C-A2CC-4BB377E6082F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D8F5D81-F27C-471C-A2CC-4BB377E6082F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F030E06-E53C-4217-A1CD-11FE791A40DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F030E06-E53C-4217-A1CD-11FE791A40DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F030E06-E53C-4217-A1CD-11FE791A40DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F030E06-E53C-4217-A1CD-11FE791A40DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4B603FF-EBB3-4EB5-A8F6-56C083DB9D32}.Release|Any CPU.ActiveCfg = Release|Any CPU

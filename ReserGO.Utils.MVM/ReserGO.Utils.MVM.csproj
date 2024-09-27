@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ReserGO.Utils.Events\ReserGO.Utils.Events.csproj" />
-    <ProjectReference Include="..\ReserGO.Utils.Service\ReserGO.Utils.Service.csproj" />
   </ItemGroup>
 
 </Project>
