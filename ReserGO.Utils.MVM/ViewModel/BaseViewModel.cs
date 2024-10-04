@@ -12,6 +12,7 @@ namespace ReserGO.Utils.MVM.ViewModel
         #region Private Variables
 
         protected TModel selectedItem;
+        protected IEnumerable<TModel> list;
         protected bool isLoading = true;
         protected bool isFirstLoad = true;
 
@@ -53,6 +54,20 @@ namespace ReserGO.Utils.MVM.ViewModel
                 {
                     selectedItem = value;
                     Publish(selectedItem);
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public IEnumerable<TModel> List
+        {
+            get => list;
+
+            set
+            {
+                if (value != null && !value.Equals(list))
+                {
+                    list = value;
                     OnPropertyChanged();
                 }
             }
