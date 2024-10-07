@@ -24,11 +24,11 @@
 
         
         /// <summary>
-        /// Non disponibile in un giorno specifico con orario specifico (es. dalle 14:00 alle 15:00) DA USARE SOLO NELLA MODIFICA DELLA RISORSA PER GIORNI SPECIFICI 
+        /// Non disponibile in un giorno specifico con orario specifico (es. 14 dicembre dalle 14:00 alle 15:00) DA USARE SOLO NELLA MODIFICA DELLA RISORSA PER GIORNI SPECIFICI 
         /// Esempio: L'admin ha bisogno che domani la risorsa non sia disponibile dalle ore 13 alle ore 19
-        /// Proprietà utilizzate: StartDateTime, EndDateTime
+        /// Proprietà utilizzate: SpecificDay, EndDateTime
         /// </summary>
-        UnavailableTimeDateTimeSlot,
+        UnavailableTimeDateSlot,
 
         /// <summary>
         /// Non disponibile in generale (es. prodotto non disponibile) DA USARE SOLO NELLA MODIFICA DELLA RISORSA
