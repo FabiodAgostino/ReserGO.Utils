@@ -69,7 +69,14 @@
             return listDaysOfTheWeek.Select(day => ItalianDaysOfWeek[day]).ToList();
         }
 
-        
+        public static string DayToItalianString(this DayOfWeek day)
+        {
+            return ItalianDaysOfWeek[day];
+        }
+
+
+
+
 
 
 
