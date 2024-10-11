@@ -5,6 +5,8 @@
             public static (string NAME, int ID) CUSTOMER = ("customer",1);
             public static (string NAME, int ID) GUEST = ("guest",0);
             public static (string NAME, int ID) ADMIN = ("admin",2);
+            public static (string NAME, int ID) NOUSER = ("nouser", -1);
+
 
         public static bool HasPermission(this IEnumerable<string> userPermissions, RoleConst permission)
         {
