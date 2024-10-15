@@ -10,7 +10,7 @@ namespace ReserGO.Utils.MVM.Interface
         bool IsFirstLoad { get; set; }
         bool IsLoading { get; set; }
         TModel SelectedItem { get; set; }
-        IEnumerable<TModel> List { get; set; }
+        List<TModel> List { get; set; }
         EventCallback NeedDataReloading { get; set; }
         ILogger Logger { get; }
         event PropertyChangedEventHandler PropertyChanged;

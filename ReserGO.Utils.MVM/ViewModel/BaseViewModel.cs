@@ -12,7 +12,7 @@ namespace ReserGO.Utils.MVM.ViewModel
         #region Private Variables
 
         protected TModel selectedItem;
-        protected IEnumerable<TModel> list;
+        protected List<TModel> list;
         protected bool isLoading = true;
         protected bool isFirstLoad = true;
 
@@ -59,7 +59,7 @@ namespace ReserGO.Utils.MVM.ViewModel
             }
         }
 
-        public IEnumerable<TModel> List
+        public List<TModel> List
         {
             get => list;
 
