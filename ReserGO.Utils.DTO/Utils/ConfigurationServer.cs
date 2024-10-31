@@ -9,6 +9,6 @@
     public class ConfigurationServer
     {
         public ExtendedInput ExtendedInput { get; set; }
-
+        public bool Manutenzione { get; set; }
     }
 }
