@@ -27,6 +27,12 @@ namespace ReserGO.Utils.DTO.Utils
             Error = error;
         }
 
+
+        public GridAction(TypeActionsGRID typeActions)
+        {
+            TypeActions = typeActions;
+        }
+
         public GridAction(GenericPagedFilter<F> pagingOptions, TypeActionsGRID typeActions, string error)
         {
             PagingOptions = pagingOptions;
