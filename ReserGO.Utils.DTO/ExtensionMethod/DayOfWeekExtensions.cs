@@ -74,7 +74,12 @@
             return ItalianDaysOfWeek[day];
         }
 
-
+        public static List<string> GetMissingDays(this List<string> daysOfTheWeek)
+        {
+            var allDays = ItalianDaysOfWeek.Values.ToList();
+            var missingDays = allDays.Except(daysOfTheWeek, StringComparer.OrdinalIgnoreCase).ToList();
+            return missingDays.OrderBy(day => ItalianDaysOrder[day]).ToList();
+        }
 
 
 
