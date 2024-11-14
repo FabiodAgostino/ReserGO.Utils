@@ -23,6 +23,17 @@
                 { "Sabato", 6 },
                 { "Domenica", 7 }
             };
+
+        public static Dictionary<string, string> DictionaryTranslate= new Dictionary<string, string>
+        {
+            { "Lunedì", "Monday" },
+            { "Martedì", "Tuesday" },
+            { "Mercoledì", "Wednesday" },
+            { "Giovedì", "Thursday" },
+            { "Venerdì", "Friday" },
+            { "Sabato", "Saturday" },
+            { "Domenica", "Sunday" }
+        };
         public static List<DayOfWeek>? ToDayOfWeekList(this string? daysOfTheWeek)
         {
             if (string.IsNullOrEmpty(daysOfTheWeek))
@@ -49,14 +60,16 @@
 
             var days = daysOfTheWeek.Split(',');
 
-            return days
+            var daysFiltered= days
                 .Select(day => day.Trim())  // Rimuove gli spazi
-                .Where(day => !string.IsNullOrEmpty(day))  // Filtra le stringhe vuote
-                .Select(day => Enum.TryParse<DayOfWeek>(day, true, out var dayOfWeek)
+                .Where(day => !string.IsNullOrEmpty(day));  // Filtra le stringhe vuote
+
+
+            var daysTranslated = daysFiltered.Select(day => Enum.TryParse<DayOfWeek>(day, true, out var dayOfWeek)
                     ? ItalianDaysOfWeek[dayOfWeek]  // Usa il dizionario per ottenere il giorno in italiano
                     : null)
-                .Where(italianDay => italianDay != null) // Filtra i giorni non validi
-                .OrderBy(day => ItalianDaysOrder.TryGetValue(day, out var order) ? order : 8) // Ordina usando il dizionario
+                .Where(italianDay => italianDay != null); // Filtra i giorni non validi
+            return daysTranslated.OrderBy(day => ItalianDaysOrder.TryGetValue(day, out var order) ? order : 8) // Ordina usando il dizionario
                 .ToList();
         }
 
